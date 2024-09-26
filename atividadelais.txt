@@ -1,0 +1,49 @@
+ALTER TABLE alunos ADD datanascimento DATE
+
+ALTER TABLE alunos DROP nota1 
+
+ALTER TABLE alunos DROP nota2 
+
+INSERT INTO alunos 
+	(codigo, nome, datanascimento)
+	VALUES (
+	1, 'Giovanna', '2003-02-28')
+INSERT INTO alunos 
+	(codigo, nome, datanascimento)
+	VALUES (	
+	2, 'Joao', '2000-01-25')
+INSERT INTO alunos 
+	(codigo, nome, datanascimento)
+	VALUES (
+	3, 'Lais', '2001-05-20')
+INSERT INTO alunos
+	(codigo, nome, datanascimento)
+	VALUES (
+	4, 'Julia', '2008-05-20')
+INSERT INTO alunos 
+	(codigo, nome, datanascimento)
+	VALUES (
+	5, 'Ana', '1998-06-15')
+	
+
+	
+	
+	
+
+INSERT INTO alunos 
+	(codigo, nome, datanascimento)
+	VALUES (
+	6, 'Ana', '1998-06-15')
+		
+	
+
+INSERT INTO alunos 
+	(codigo, nome, datanascimento)
+	VALUES (
+	, '', '')
+	
+INSERT INTO alunos 
+	(codigo, nome, datanascimento)
+	VALUES (
+	3, 'Lais', '2001-05-20')
+	
